@@ -1,0 +1,60 @@
+.issues-list {
+    font-family: 'Calibri', sans-serif;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px 0;
+}
+
+.issues-list > h2 {
+    margin: 0 10px;
+    font-size: 24px;
+    padding: 5px 0 15px 0;
+    font-weight: 400;
+    color: #3f84e4;
+}
+
+.list-header{
+    display: flex;
+    font-size: 16px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:  15px 0 15px 16px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px 6px 0 0;
+}
+
+.list-header > p {
+    margin: 0;
+    padding: 0 10px 0 15px;
+    color: #24292e;
+    font-weight: bold;
+}
+
+.list-header > div {
+    padding: 0 15px 0 10px;
+}
+
+.list-header > div select {
+    font-size: 12px;
+    border-radius: 7px;
+    color: rgb(80, 80, 80);
+}
+
+.issues-list > ol { 
+    padding: 0;
+    margin: 0;
+}
+
+.issues-list > ol li {
+    list-style: none;
+    border: 1px solid #e1e4e8
+}
+
+.issues-list > p {
+    font-size: 21px;
+    color: rgb(63, 63, 63);
+    line-height: 1.5em;
+    text-align: center;
+    margin: 10px 10px;
+}

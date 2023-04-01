@@ -1,0 +1,63 @@
+.issue {
+  margin: 10px 10px 0px 10px;
+  max-width: 100%;
+  font-family: Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+empty:hover {
+  color: rgb(64, 118, 235);
+  cursor: pointer;
+}
+
+.issuer_outer {
+  width: 100%;
+  max-width: 100%;
+}
+
+.issue_desc {
+  display: flex;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  color: #586069;
+  font-size: 12px;
+}
+
+.issue_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 250px;
+  max-width: 100%;
+}
+
+.issue_wrap p {
+  margin: 0 0 0 3px;
+  font-size: 12px;
+}
+.issue_wrap p:first-child {
+  margin: 0 0 0 10px;
+}
+
+.title_label {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.title_label h2 {
+  margin: 0 0 0px 10px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 550;
+  color: #24292e;
+}
+
+.link {
+  text-decoration: none;
+  color: #24292e;
+  outline: 0;
+  transition: 0.3s ease;
+}
+
+.link:hover {
+  color: rgb(64, 118, 235);
+}
